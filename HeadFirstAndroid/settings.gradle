@@ -1,2 +1,3 @@
+include ':myfirstapp'
 include ':app'
 rootProject.name = "Head First Android"

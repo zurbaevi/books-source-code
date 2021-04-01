@@ -9,7 +9,7 @@ ___
 * [Stopwatch](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/stopwatch)
 * [LinearLayoutExample (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/linearlayoutexample)
 * [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/duck)
-* ~~[MyConstraintLayout]()~~
+* [MyConstraintLayout](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/myconstraintlayout)
 * ~~[Starbuzz №1]()~~
 * ~~[BitsandPizzas №1]()~~
 * ~~[Workout №1]()~~

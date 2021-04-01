@@ -7,7 +7,8 @@ ___
 * [BeerAdviser](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/beeradviser) 
 * [MyMessenger](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/mymessenger)
 * [Stopwatch](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/stopwatch)
-* ~~[Duck & LinearLayoutExample]()~~
+* [LinearLayoutExample (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/linearlayoutexample)
+* [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/duck)
 * ~~[MyConstraintLayout]()~~
 * ~~[Starbuzz №1]()~~
 * ~~[BitsandPizzas №1]()~~

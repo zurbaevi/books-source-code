@@ -1,3 +1,4 @@
+include ':catchat'
 include ':bitsandpizzas3'
 include ':bitsandpizzas2'
 include ':workout3'

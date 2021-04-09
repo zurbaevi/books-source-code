@@ -29,7 +29,7 @@ ____
 # Android Programming The Big Nerd Ranch Guide by Bill Phillips and Brian Hardy
 
 #### Таблица содержания
-* ~~[Упражнение 1]()~~
+* [Упражнение 1](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge1)
 * ~~[Упражнение 2]()~~
 * ~~[Упражнение 3]()~~
 * ~~[Упражнение 4]()~~
@@ -48,4 +48,11 @@ ____
 * ~~[Упражнение 17]()~~
 * ~~[Упражнение 18]()~~
 * ~~[Упражнение 19]()~~
+* [GeoQuiz (В процессе)](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/geoquiz)
+* ~~[CriminalIntent]()~~
+* ~~[DragAndDraw]()~~
+* ~~[Locatr]()~~
+* ~~[NerdLauncher]()~~
+* ~~[PhotoGallery]()~~
+* ~~[Sunset]()~~
 ____

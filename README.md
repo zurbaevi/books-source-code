@@ -32,8 +32,7 @@ ____
 * [Упражнение 1](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge1)
 * [Упражнение 2](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge2)
 * [Упражнение 3](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge3)
-* ~~[Упражнение 4]()~~
-* ~~[Упражнение 5]()~~
+* [Упражнение 5](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge5)
 * ~~[Упражнение 6]()~~
 * ~~[Упражнение 7]()~~
 * ~~[Упражнение 8]()~~

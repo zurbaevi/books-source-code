@@ -34,7 +34,6 @@ ____
 * [Упражнение 3](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge3)
 * [Упражнение 5](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge5)
 * [Упражнение 6](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge6)
-* ~~[Упражнение 7]()~~
 * ~~[Упражнение 8]()~~
 * ~~[Упражнение 9]()~~
 * ~~[Упражнение 10]()~~
@@ -48,7 +47,7 @@ ____
 * ~~[Упражнение 18]()~~
 * ~~[Упражнение 19]()~~
 * [GeoQuiz (В процессе)](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/geoquiz)
-* ~~[CriminalIntent]()~~
+* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/criminalintent)
 * ~~[DragAndDraw]()~~
 * ~~[Locatr]()~~
 * ~~[NerdLauncher]()~~

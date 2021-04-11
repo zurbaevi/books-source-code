@@ -1,14 +1,19 @@
-package com.bignerdranch.android.challenge5;
+package com.bignerdranch.android.challenge6;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewAnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.bignerdranch.android.challenge6.R;
 
 public class CheatActivity extends AppCompatActivity {
 
@@ -16,11 +21,12 @@ public class CheatActivity extends AppCompatActivity {
             "com.bignerdranch.android.geoquiz.answer_is_true";
     private static final String EXTRA_ANSWER_SHOWN =
             "com.bignerdranch.android.geoquiz.answer_shown";
-    private static final String KEY_INDEX = "cheat_index";
 
     private boolean mAnswerIsTrue;
     private TextView mAnswerTextView;
+    private TextView mApiLevelTextView;
     private Button mShowAnswerButton;
+    private int mCheatRemain = 3;
 
     public static Intent newIntent(Context packageContext, boolean isAnswerTrue) {
         Intent intent = new Intent(packageContext, CheatActivity.class);
@@ -37,6 +43,10 @@ public class CheatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cheat);
 
+        mApiLevelTextView = (TextView) findViewById(R.id.api_text_view);
+        String apiLevel = "API Level " + Build.VERSION.SDK_INT;
+        mApiLevelTextView.setText(apiLevel);
+
         mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false);
 
         mAnswerTextView = (TextView) findViewById(R.id.answer_text_view);
@@ -50,21 +60,26 @@ public class CheatActivity extends AppCompatActivity {
                     mAnswerTextView.setText(R.string.false_button);
                 }
                 setAnswerShownResult(true);
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    int cx = mShowAnswerButton.getWidth() / 2;
+                    int cy = mShowAnswerButton.getHeight() / 2;
+                    float radius = mShowAnswerButton.getWidth();
+                    Animator anim = ViewAnimationUtils
+                            .createCircularReveal(mShowAnswerButton, cx, cy, radius, 0);
+                    anim.addListener(new AnimatorListenerAdapter() {
+                        @Override
+                        public void onAnimationEnd(Animator animation) {
+                            super.onAnimationEnd(animation);
+                            mShowAnswerButton.setVisibility(View.INVISIBLE);
+                        }
+                    });
+                    anim.start();
+                } else {
+                    mShowAnswerButton.setVisibility(View.INVISIBLE);
+                }
             }
         });
-
-        if (savedInstanceState != null) {
-            mAnswerTextView.setText(savedInstanceState.getString(KEY_INDEX, ""));
-            if (!mAnswerTextView.getText().toString().isEmpty()) {
-                setAnswerShownResult(true);
-            }
-        }
-    }
-
-    @Override
-    protected void onSaveInstanceState(@NonNull Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putString(KEY_INDEX, mAnswerTextView.getText().toString());
     }
 
     private void setAnswerShownResult(boolean isAnswerShown) {

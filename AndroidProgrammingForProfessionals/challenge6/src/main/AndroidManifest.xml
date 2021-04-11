@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bignerdranch.android.challenge5">
+    package="com.bignerdranch.android.challenge6">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProgrammingForProfessionals">
-        <activity android:name="com.bignerdranch.android.challenge5.CheatActivity"></activity>
-        <activity android:name="com.bignerdranch.android.challenge5.QuizActivity">
+        <activity android:name="com.bignerdranch.android.challenge6.CheatActivity"></activity>
+        <activity android:name="com.bignerdranch.android.challenge6.QuizActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

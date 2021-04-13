@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent;
+package com.bignerdranch.android.challenge11;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent;
+package com.bignerdranch.android.challenge13;
 
 import android.content.Context;
 
@@ -8,12 +8,7 @@ import java.util.UUID;
 
 public class CrimeLab {
     private static CrimeLab sCrimeLab;
-
     private List<Crime> mCrimes;
-
-    private CrimeLab(Context context) {
-        mCrimes = new ArrayList<>();
-    }
 
     public static CrimeLab get(Context context) {
         if (sCrimeLab == null) {
@@ -22,8 +17,16 @@ public class CrimeLab {
         return sCrimeLab;
     }
 
-    public void addCrime(Crime crime) {
-        mCrimes.add(crime);
+    private CrimeLab(Context context) {
+        mCrimes = new ArrayList<>();
+    }
+
+    public void addCrime(Crime c) {
+        mCrimes.add(c);
+    }
+
+    public void removeCrime(Crime c) {
+        mCrimes.remove(c);
     }
 
     public List<Crime> getCrimes() {

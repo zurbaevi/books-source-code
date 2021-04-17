@@ -1,9 +1,9 @@
-package com.bignerdranch.android.criminalintent.database;
+package com.bignerdranch.android.challenge15.database;
 
 import android.database.Cursor;
 import android.database.CursorWrapper;
 
-import com.bignerdranch.android.criminalintent.Crime;
+import com.bignerdranch.android.challenge15.Crime;
 
 import java.util.Date;
 import java.util.UUID;

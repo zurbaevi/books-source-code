@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent.database;
+package com.bignerdranch.android.challenge15.database;
 
 public class CrimeDbSchema {
     public static final class CrimeTable {
@@ -10,6 +10,7 @@ public class CrimeDbSchema {
             public static final String DATE = "date";
             public static final String SOLVED = "solved";
             public static final String SUSPECT = "suspect";
+            public static final String CONTACT = "contact";
         }
     }
 }

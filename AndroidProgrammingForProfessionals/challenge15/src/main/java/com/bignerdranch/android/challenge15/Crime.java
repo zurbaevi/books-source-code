@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent;
+package com.bignerdranch.android.challenge15;
 
 import java.util.Date;
 import java.util.UUID;
@@ -10,6 +10,7 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
     private String mSuspect;
+    private String mContactNumber;
 
     public Crime() {
         this(UUID.randomUUID());
@@ -18,14 +19,6 @@ public class Crime {
     public Crime(UUID id) {
         mId = id;
         mDate = new Date();
-    }
-
-    public String getSuspect() {
-        return mSuspect;
-    }
-
-    public void setSuspect(String suspect) {
-        mSuspect = suspect;
     }
 
     public UUID getId() {
@@ -54,5 +47,21 @@ public class Crime {
 
     public void setSolved(boolean solved) {
         mSolved = solved;
+    }
+
+    public String getSuspect() {
+        return mSuspect;
+    }
+
+    public void setSuspect(String suspect) {
+        mSuspect = suspect;
+    }
+
+    public String getContactNumber() {
+        return mContactNumber;
+    }
+
+    public void setContactNumber(String contactNumber) {
+        mContactNumber = contactNumber;
     }
 }

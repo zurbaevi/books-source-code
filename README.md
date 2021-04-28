@@ -54,3 +54,39 @@ ____
 * ~~[PhotoGallery]()~~
 * ~~[Sunset]()~~
 ____
+# Head First Kotlin
+
+#### Таблица содержания
+* ~~[Chapter 2]()~~
+  * ~~[PhraseOMatic]()~~
+  * ~~[Solutions]()~~
+    * ~~[BE the Compiler A]()~~
+    * ~~[BE the Compiler B]()~~
+    * ~~[Code Magnets]()~~
+    * ~~[Mixed References]()~~
+* ~~[Chapter 3]()~~
+  * ~~[Game]()~~
+  * ~~[Solutions]()~~
+    * ~~[BE the Compiler A]()~~
+    * ~~[BE the Compiler B]()~~
+    * ~~[BE the Compiler C]()~~
+    * ~~[Mixed Messages]()~~
+* ~~[Chapter 4]()~~
+  * ~~[Dog]()~~
+  * ~~[Song]()~~
+  * ~~[Solutions]()~~
+    * ~~[DrumKit]()~~
+    * ~~[Pool Puzzle]()~~
+    * ~~[BE the Compiler A]()~~
+    * ~~[BE the Compiler B]()~~
+* ~~[Chapter 5]()~~
+  * ~~[Main]()~~
+  * ~~[Solutions]()~~
+    * ~~[BE the Compiler]()~~
+* ~~[Chapter 6]()~~
+  * ~~[Main]()~~
+  * ~~[Solutions]()~~
+    * ~~[Pool Puzzle]()~~
+    * ~~[Exercise]()~~
+    * ~~[BE the Compiler]()~~
+  * ~~[Multiple interfaces]()~~

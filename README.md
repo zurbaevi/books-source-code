@@ -57,8 +57,8 @@ ____
 # Head First Kotlin
 
 #### Таблица содержания
-* ~~[Chapter 2]()~~
-* ~~[Chapter 3]()~~
+* [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter2)
+* [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter3)
 * ~~[Chapter 4]()~~
 * ~~[Chapter 5]()~~
 * ~~[Chapter 6]()~~

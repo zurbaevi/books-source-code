@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.bignerdranch.android.challenge3
 
 import android.os.Bundle
 import android.util.Log
@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     )
 
     private var currentIndex = 0
+    private var numberOfCorrectAnswer = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,14 +40,27 @@ class MainActivity : AppCompatActivity() {
 
         trueButton.setOnClickListener {
             checkAnswer(true)
+            disableAnswerButton()
         }
 
         falseButton.setOnClickListener {
             checkAnswer(false)
+            disableAnswerButton()
         }
 
         nextButton.setOnClickListener {
-            updateQuestion()
+            currentIndex = (currentIndex + 1) % questionBank.size
+            if (currentIndex != 0) {
+                enableAnswerButton()
+                updateQuestion()
+
+                if (currentIndex == questionBank.size - 1) {
+                    nextButton.text = getString(R.string.check_score)
+                    displayScore()
+                }
+            } else {
+                nextButton.isEnabled = false
+            }
         }
 
         updateQuestion()
@@ -78,7 +92,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateQuestion() {
-        currentIndex = (currentIndex + 1) % questionBank.size
         val questionTextResId = questionBank[currentIndex].textResId
         questionTextView.setText(questionTextResId)
     }
@@ -86,10 +99,26 @@ class MainActivity : AppCompatActivity() {
     private fun checkAnswer(userAnswer: Boolean) {
         val correctAnswer = questionBank[currentIndex].answer
         val messageResId = if (userAnswer == correctAnswer) {
+            numberOfCorrectAnswer++
             R.string.correct_toast
         } else {
             R.string.incorrect_toast
         }
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun enableAnswerButton() {
+        trueButton.isEnabled = true
+        falseButton.isEnabled = true
+    }
+
+    private fun disableAnswerButton() {
+        trueButton.isEnabled = false
+        falseButton.isEnabled = false
+    }
+
+    private fun displayScore() {
+        val score = 100 * numberOfCorrectAnswer / questionBank.size
+        Toast.makeText(this, "Your score is $score", Toast.LENGTH_LONG).show()
     }
 }

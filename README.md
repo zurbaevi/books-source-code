@@ -51,6 +51,7 @@ ___
 * [Challenge 1](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge1)
 * [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge2)
 * [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge3)
+* [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge6)
 * [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/geoquiz)
 ___
 # Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Java

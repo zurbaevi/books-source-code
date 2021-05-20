@@ -1,6 +1,6 @@
 include ':criminalintent'
-include ':challenge5'
-include ':challenge4'
+include ':challenge7'
+include ':challenge6'
 include ':challenge3'
 include ':challenge2'
 include ':challenge1'

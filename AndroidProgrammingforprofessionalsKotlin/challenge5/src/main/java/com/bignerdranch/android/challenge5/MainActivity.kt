@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.bignerdranch.android.challenge5
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -12,7 +12,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
-import com.bignerdranch.android.geoquiz.CheatActivity.Companion.EXTRA_ANSWER_SHOWN
+import com.bignerdranch.android.challenge5.CheatActivity.Companion.EXTRA_ANSWER_SHOWN
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,25 +25,35 @@ class MainActivity : AppCompatActivity() {
     private lateinit var nextButton: Button
     private lateinit var cheatButton: Button
     private lateinit var questionTextView: TextView
+    private lateinit var apiLevelTextView: TextView
 
     private val quizViewModel: QuizViewModel by lazy {
         ViewModelProviders.of(this).get(QuizViewModel::class.java)
     }
 
-    @SuppressLint("RestrictedApi")
+    @SuppressLint("RestrictedApi", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate(Bundle?) called")
         setContentView(R.layout.activity_main)
 
         val currentIndex = savedInstanceState?.getInt(KEY_INDEX, 0) ?: 0
+        val promptCount = savedInstanceState?.getInt("promptCount", 3) ?: 3
         quizViewModel.currentIndex = currentIndex
+        quizViewModel.promptCount = promptCount
 
         trueButton = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
         nextButton = findViewById(R.id.next_button)
         cheatButton = findViewById(R.id.cheat_button)
         questionTextView = findViewById(R.id.question_text_view)
+        apiLevelTextView = findViewById(R.id.api_level_text_view)
+
+        apiLevelTextView.text = "Api Level ${Build.VERSION.SDK_INT}"
+
+        if (quizViewModel.promptCount == 0) {
+            cheatButton.isEnabled = false
+        }
 
         trueButton.setOnClickListener {
             checkAnswer(true)
@@ -61,6 +71,9 @@ class MainActivity : AppCompatActivity() {
         cheatButton.setOnClickListener {
             val answerIsTrue = quizViewModel.currentQuestionAnswer
             val intent = CheatActivity.newIntent(this@MainActivity, answerIsTrue)
+            if (quizViewModel.promptCount != 0) {
+                quizViewModel.promptCount--
+            }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 val options = ActivityOptions.makeClipRevealAnimation(it, 0, 0, it.width, it.height)
                 startActivityForResult(intent, REQUEST_CODE_CHEAT, options.toBundle())
@@ -80,6 +93,9 @@ class MainActivity : AppCompatActivity() {
 
         if (requestCode == REQUEST_CODE_CHEAT) {
             quizViewModel.isCheater = data?.getBooleanExtra(EXTRA_ANSWER_SHOWN, false) ?: false
+            if (quizViewModel.promptCount == 0) {
+                cheatButton.isEnabled = false
+            }
         }
     }
 
@@ -102,6 +118,7 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState)
         Log.i(TAG, "onSaveInstanceState")
         outState.putInt(KEY_INDEX, quizViewModel.currentIndex)
+        outState.putInt("promptCount", quizViewModel.promptCount)
     }
 
     override fun onStop() {

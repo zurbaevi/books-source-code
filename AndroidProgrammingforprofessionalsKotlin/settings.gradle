@@ -1,3 +1,4 @@
+include ':challenge5'
 include ':challenge4'
 include ':challenge3'
 include ':challenge2'

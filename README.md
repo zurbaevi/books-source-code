@@ -52,7 +52,9 @@ ___
 * [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge2)
 * [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge3)
 * [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge6)
+* [Challenge 7](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/challenge7)
 * [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/geoquiz)
+* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingforprofessionalsKotlin/criminalintent)
 ___
 # Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Java
 > Когда вы приступаете к разработке приложений для Android - вы как будто оказываетесь в чужой стране: даже зная местный язык, на первых порах всё равно чувствуете себя не комфортно. Такое впечатление, что все окружающие знают что-то такое, чего вы никак не понимаете. И даже то, что вам уже известно, в новом контексте оказывается попросту неправильным.

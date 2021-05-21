@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.bignerdranch.android.challenge9
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

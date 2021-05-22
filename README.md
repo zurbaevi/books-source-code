@@ -44,9 +44,9 @@ ___
 > Язык Kotlin предлагает выразительный синтаксис, мощную и понятную систему типов, великолепную поддержку и бесшовную совместимость с существующим кодом на Java, богатый выбор библиотек и фреймворков. Kotlin может компилироваться в байт-код Java, поэтому его можно использовать везде, где используется Java, включая Android. А благодаря эффективному компилятору и маленькой стандартной библиотеке, Kotlin практически не привносит накладных расходов.
 * [Ссылка на книгу](https://www.ozon.ru/product/kotlin-v-deystvii-142702695/)
 #### Таблица содержания
- * [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/main/kotlin/chapter1)
- * [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/main/kotlin/chapter2)
- * [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/main/kotlin/chapter3)
+ * [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter1)
+ * [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter2)
+ * [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter3)
 ___
 # Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Kotlin
 > Познакомьтесь с возможностями программирования Android на языке Kotlin! Множество примеров приложений с четкими объяснениями ключевых концепций и API позволят легко разобраться в самых трудных задачах. Эта книга посвящена прикладным методам разработки приложений на Kotlin, и подойдет для всех версий Android от 5.0 (Lollipop) до 8.1 (Oreo) и выше.

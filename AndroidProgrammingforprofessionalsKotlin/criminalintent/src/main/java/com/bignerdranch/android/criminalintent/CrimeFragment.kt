@@ -29,35 +29,53 @@ class CrimeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_crime, container, false)
+
         titleField = view.findViewById(R.id.crime_title) as EditText
         dateButton = view.findViewById(R.id.crime_date) as Button
+        solvedCheckBox = view.findViewById(R.id.crime_solved) as CheckBox
+
         dateButton.apply {
             text = crime.date.toString()
             isEnabled = false
         }
-        solvedCheckBox = view.findViewById(R.id.crime_solved) as CheckBox
+
         return view
     }
 
     override fun onStart() {
         super.onStart()
+
         val titleWatcher = object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
 
+            override fun beforeTextChanged(
+                sequence: CharSequence?,
+                start: Int,
+                count: Int,
+                after: Int
+            ) {
+                // This space intentionally left blank
             }
 
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                crime.title = s.toString()
+            override fun onTextChanged(
+                sequence: CharSequence?,
+                start: Int,
+                before: Int,
+                count: Int
+            ) {
+                crime.title = sequence.toString()
             }
 
-            override fun afterTextChanged(s: Editable?) {
-
+            override fun afterTextChanged(sequence: Editable?) {
+                // This one too
             }
         }
+
         titleField.addTextChangedListener(titleWatcher)
 
         solvedCheckBox.apply {
-            setOnCheckedChangeListener { _, isChecked -> crime.isSolved = isChecked }
+            setOnCheckedChangeListener { _, isChecked ->
+                crime.isSolved = isChecked
+            }
         }
     }
 }

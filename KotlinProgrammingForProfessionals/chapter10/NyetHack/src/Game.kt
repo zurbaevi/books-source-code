@@ -1,5 +1,3 @@
-package chapter4
-
 fun main(args: Array<String>) {
     val name = "Madrigal"
     val healthPoints = 89

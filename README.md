@@ -8,26 +8,26 @@ ___
 
 #### Таблица содержания
 
-* [MyFirstApp](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/myfirstapp)
-* [BeerAdviser](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/beeradviser)
-* [MyMessenger](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/mymessenger)
-* [Stopwatch](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/stopwatch)
-* [LinearLayoutExample (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/linearlayoutexample)
-* [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/duck)
-* [MyConstraintLayout](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/myconstraintlayout)
-* [Starbuzz №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/starbuzz)
-* [BitsandPizzas №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/bitsandpizzas)
-* [Workout №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/workout)
-* [Workout №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/workout2)
-* [Workout №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/workout3)
-* [BitsandPizzas №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/bitsandpizzas2)
-* [BitsandPizzas №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/bitsandpizzas3)
-* [CatChat](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/catchat)
-* [Starbuzz №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/starbuzz2)
-* [Starbuzz №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/starbuzz3)
-* [Starbuzz №4](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/starbuzz4)
-* [Joke](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/joke)
-* [Odometer](https://github.com/zurbaevi/Books-Source-Code/tree/main/head-first-android/odometer)
+* [MyFirstApp](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/myfirstapp)
+* [BeerAdviser](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/beeradviser)
+* [MyMessenger](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/mymessenger)
+* [Stopwatch](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/stopwatch)
+* [LinearLayoutExample (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/linearlayoutexample)
+* [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/duck)
+* [MyConstraintLayout](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/myconstraintlayout)
+* [Starbuzz №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/starbuzz)
+* [BitsandPizzas №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/bitsandpizzas)
+* [Workout №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/workout)
+* [Workout №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/workout2)
+* [Workout №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/workout3)
+* [BitsandPizzas №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/bitsandpizzas2)
+* [BitsandPizzas №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/bitsandpizzas3)
+* [CatChat](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/catchat)
+* [Starbuzz №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/starbuzz2)
+* [Starbuzz №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/starbuzz3)
+* [Starbuzz №4](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/starbuzz4)
+* [Joke](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/joke)
+* [Odometer](https://github.com/zurbaevi/Books-Source-Code/tree/main/java/head-first-android/odometer)
 
 ____
 
@@ -39,17 +39,17 @@ ____
 
 #### Таблица содержания
 
-* [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter2)
-* [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter3)
-* [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter4)
-* [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter5)
-* [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter6)
-* [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter7)
-* [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter8)
-* [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter9)
-* [Chapter 10](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter10)
-* [Chapter 11](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter11)
-* [Chapter 12](https://github.com/zurbaevi/books-source-code/tree/main/head-first-kotlin/src/main/kotlin/chapter12)
+* [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter2)
+* [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter3)
+* [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter4)
+* [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter5)
+* [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter6)
+* [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter7)
+* [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter8)
+* [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter9)
+* [Chapter 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter10)
+* [Chapter 11](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter11)
+* [Chapter 12](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/head-first-kotlin/src/main/kotlin/chapter12)
 
 ___
 
@@ -61,16 +61,16 @@ ___
 
 #### Таблица содержания
 
-* [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter1)
-* [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter2)
-* [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter3)
-* [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter4)
-* [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter5)
-* [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter6)
-* [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter7)
-* [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter8)
-* [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter9)
-* [Chapter 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin-programming-for-professionals/chapter10)
+* [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter1)
+* [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter2)
+* [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter3)
+* [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter4)
+* [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter5)
+* [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter6)
+* [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter7)
+* [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter8)
+* [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter9)
+* [Chapter 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter10)
 
 ___
 
@@ -82,15 +82,15 @@ ___
 
 #### Таблица содержания
 
-* [Challenge 1](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge1)
-* [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge2)
-* [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge3)
-* [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge6)
-* [Challenge 7](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge7)
-* [Challenge 9](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge9)
-* [Challenge 10](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/challenge10)
-* [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/geoquiz)
-* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-kotlin/criminalintent)
+* [Challenge 1](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge1)
+* [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge2)
+* [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge3)
+* [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge6)
+* [Challenge 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge7)
+* [Challenge 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge9)
+* [Challenge 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge10)
+* [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/geoquiz)
+* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/criminalintent)
 
 ___
 
@@ -102,24 +102,24 @@ ___
 
 #### Таблица содержания
 
-* [Challenge 1](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge1)
-* [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge2)
-* [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge3)
-* [Challenge 5](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge5)
-* [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge6)
-* [Challenge 8](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge8)
-* [Challenge 9](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge9)
-* [Challenge 10](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge10)
-* [Challenge 11](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge11)
-* [Challenge 12](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge12)
-* [Challenge 13](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge13)
-* [Challenge 14](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge14)
-* [Challenge 15](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge15)
-* [Challenge 16](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge16)
-* [Challenge 17](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge17)
-* [Challenge 18](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge18)
-* [Challenge 19](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/challenge19)
-* [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/geoquiz)
-* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/android-programming-for-professionals-java/criminalintent)
+* [Challenge 1](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge1)
+* [Challenge 2](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge2)
+* [Challenge 3](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge3)
+* [Challenge 5](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge5)
+* [Challenge 6](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge6)
+* [Challenge 8](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge8)
+* [Challenge 9](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge9)
+* [Challenge 10](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge10)
+* [Challenge 11](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge11)
+* [Challenge 12](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge12)
+* [Challenge 13](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge13)
+* [Challenge 14](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge14)
+* [Challenge 15](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge15)
+* [Challenge 16](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge16)
+* [Challenge 17](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge17)
+* [Challenge 18](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge18)
+* [Challenge 19](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/challenge19)
+* [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/geoquiz)
+* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/java/android-programming-for-professionals-java/criminalintent)
 
 ____

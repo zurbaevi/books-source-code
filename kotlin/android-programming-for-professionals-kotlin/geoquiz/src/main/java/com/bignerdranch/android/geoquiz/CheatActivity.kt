@@ -8,6 +8,12 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+
+const val EXTRA_ANSWER_SHOWN =
+    "com.bignerdranch.android.geoquiz.answer_shown"
+private const val EXTRA_ANSWER_IS_TRUE =
+    "com.bignerdranch.android.geoquiz.answer_is_true"
+
 class CheatActivity : AppCompatActivity() {
 
     private lateinit var answerTextView: TextView
@@ -47,10 +53,5 @@ class CheatActivity : AppCompatActivity() {
                 putExtra(EXTRA_ANSWER_IS_TRUE, answerIsTrue)
             }
         }
-
-        const val EXTRA_ANSWER_SHOWN =
-            "com.bignerdranch.android.geoquiz.answer_shown"
-        private const val EXTRA_ANSWER_IS_TRUE =
-            "com.bignerdranch.android.geoquiz.answer_is_true"
     }
 }

@@ -3,8 +3,9 @@ package com.bignerdranch.android.geoquiz
 import android.util.Log
 import androidx.lifecycle.ViewModel
 
+private const val TAG = "QuizViewModel"
+
 class QuizViewModel : ViewModel() {
-    private val TAG = "QuizViewModel"
 
     var currentIndex = 0
     var isCheater = false

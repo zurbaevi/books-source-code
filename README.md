@@ -91,6 +91,7 @@ ___
 * [Challenge 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge7)
 * [Challenge 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge9)
 * [Challenge 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge10)
+* [Challenge 12](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/challenge12)
 * [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/geoquiz)
 * [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/android-programming-for-professionals-kotlin/criminalintent)
 

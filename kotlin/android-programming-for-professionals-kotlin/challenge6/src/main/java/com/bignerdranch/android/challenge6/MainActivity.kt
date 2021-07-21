@@ -16,7 +16,7 @@ private const val REQUEST_CODE_CHEAT = 0
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var trueButton: Button;
+    private lateinit var trueButton: Button
     private lateinit var falseButton: Button
     private lateinit var nextButton: Button
     private lateinit var cheatButton: Button

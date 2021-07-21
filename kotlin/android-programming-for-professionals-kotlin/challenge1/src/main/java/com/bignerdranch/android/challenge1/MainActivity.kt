@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var trueButton: Button;
+    private lateinit var trueButton: Button
     private lateinit var falseButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
